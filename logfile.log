@@ -1,0 +1,41 @@
+[2024-08-12 20:24:11] [ ERROR] [OdontologosServiceTest:29] Error de Sintaxis en sentencia SQL "\000d\000aCREATE TABLE ODONTOLOGOS (\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNROMATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000aCREATE TABLE ODONTOLOGOS (\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNROMATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+CREATE TABLE ODONTOLOGOS (
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NROMATRICULA INT NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+) [42001-230]
+[2024-08-12 20:26:39] [ ERROR] [OdontologosServiceTest:29] Error de Sintaxis en sentencia SQL "\000d\000aCREATE TABLE ODONTOLOGOS (\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNROMATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000aCREATE TABLE ODONTOLOGOS (\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNROMATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+CREATE TABLE ODONTOLOGOS (
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NROMATRICULA INT NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+) [42001-230]
+[2024-08-12 20:30:48] [ ERROR] [OdontologosServiceTest:29] Error de Sintaxis en sentencia SQL "\000d\000aCREATE TABLE ODONTOLOGOS (\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNROMATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000aCREATE TABLE ODONTOLOGOS (\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNROMATRICULA INT NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+CREATE TABLE ODONTOLOGOS (
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NROMATRICULA INT NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+) [42001-230]
+[2024-08-12 20:38:06] [ INFO ] [DaoH2Odontologo:78] odontologo Odontologo{id=1, nroMatricula=123, nombre='lILI', Apellido='PACHARI'}
+[2024-08-12 20:38:06] [ INFO ] [DaoH2Odontologo:78] odontologo Odontologo{id=2, nroMatricula=456, nombre='PETER', Apellido='YELA'}
+[2024-08-12 20:39:16] [ INFO ] [DaoH2Odontologo:78] odontologo Odontologo{id=1, nroMatricula=123, nombre='lILI', Apellido='PACHARI'}
+[2024-08-12 20:39:16] [ INFO ] [DaoH2Odontologo:78] odontologo Odontologo{id=2, nroMatricula=456, nombre='PETER', Apellido='YELA'}
+[2024-08-12 21:07:41] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id=1, nroMatricula=789, nombre='pepito', Apellido='perez'}
+[2024-08-12 21:17:06] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id=1, nroMatricula=789, nombre='pepito', Apellido='perez'}
+[2024-08-12 21:17:06] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id=2, nroMatricula=7899, nombre='luis', Apellido='lopez'}
+[2024-08-12 21:17:06] [ INFO ] [DaoEnMemoria:24] Listado de todos los odontólogos realizado exitosamente.
+[2024-08-12 21:17:46] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id=1, nroMatricula=789, nombre='pepito', Apellido='perez'}
+[2024-08-12 21:17:46] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id=2, nroMatricula=7899, nombre='luis', Apellido='lopez'}
+[2024-08-12 21:17:46] [ INFO ] [DaoEnMemoria:24] Listado de todos los odontólogos realizado exitosamente.
+[2024-08-12 21:18:00] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id=1, nroMatricula=789, nombre='pepito', Apellido='perez'}
+[2024-08-12 21:18:00] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id=2, nroMatricula=7899, nombre='luis', Apellido='lopez'}
+[2024-08-12 21:18:00] [ INFO ] [DaoEnMemoria:24] Listado de todos los odontólogos realizado exitosamente.
